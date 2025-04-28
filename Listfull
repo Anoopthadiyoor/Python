@@ -1,0 +1,19 @@
+list=['history','lknklml','flknl', 'lnnl']
+list2=','.join(list)
+print(list2)
+print(list.index('history'))
+
+list.remove('history')
+print(list[1:3])
+v=list.count('history')
+print(v)
+ll=[11,32,43,132,2]
+print(max(ll))
+print(45 in ll)
+ll.reverse()
+print(ll)
+amma=[11,32,43,132,2]
+
+for irem in amma:
+    print(irem)
+    
