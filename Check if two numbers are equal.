@@ -1,0 +1,9 @@
+#  Check if two numbers are equal.
+
+num1 = 21
+num2= 20
+if num1==num2:
+    print("equal numbers")
+else:
+    print("not equal..........")
+
