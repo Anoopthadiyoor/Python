@@ -1,0 +1,17 @@
+# Categorize marks into grades (A/B/C/D/F).
+
+
+m1=int(input("enter mark of sub1(out of 100):"))
+m2=int(input("enter mark of sub2(out of 100):"))
+m3=int(input("enter mark of sub3(out of 100):"))
+total=m1+m2+m3
+if total>250:
+    print ("grade : A")
+elif(total<290 and total>200):
+    print("grade: b")
+elif(total<200 and total>150):
+    print("grade:c")
+elif(total<150 and total>100):
+    print("grade:d")
+elif(total<100 ):
+    print("failed")
