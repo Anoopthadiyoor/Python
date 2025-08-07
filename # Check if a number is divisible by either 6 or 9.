@@ -1,0 +1,7 @@
+# Check if a number is divisible by either 6 or 9.
+
+num=12
+if num%6==0 or num%9==0:
+    print("The number is divisible by either 6 or 9.")
+else:
+    print("The number is not divisible by either 6 or 9.")
