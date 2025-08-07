@@ -1,0 +1,7 @@
+#  Check if a number is a three-digit number.
+digit=0
+n1=int(input("enter a num :"))
+if n1>=100 and n1<=999:
+    print("three didgit number...")
+else:
+    print(" not a 3 didgit number...............................")
