@@ -1,0 +1,9 @@
+#  Check if a number is positive, negative, or zero
+
+num=int(input(" enter a number"))
+if( num % 2 ==0):
+    print(" even ")
+elif(num==0):
+    print(" zero value")
+else:
+    print(" odd number")
