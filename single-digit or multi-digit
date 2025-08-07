@@ -1,0 +1,8 @@
+#  Check if a number is a single-digit or multi-digit.
+
+num=398
+
+if num<=9:
+    print ("single digit")
+else:
+    print("multidigit")
