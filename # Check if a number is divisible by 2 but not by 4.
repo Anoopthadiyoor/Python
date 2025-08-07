@@ -1,0 +1,8 @@
+# Check if a number is divisible by 2 but not by 4.
+
+n1=int(input("enter a num :"))
+if n1%2==0 and n1%4!=0:
+    print("number is divisible by 2 but not by 4")
+else:
+    print(" condition not satisfied")
+
