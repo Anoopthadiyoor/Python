@@ -1,0 +1,12 @@
+# Print the smallest of two numbers.
+
+n1=int(input("enter a num 1:"))
+n2=int(input("enter num2:"))
+
+if n1<n2:
+    print(" num1 is smallest..")
+elif n2<n1:
+    print(" num2 is smallest..")
+
+else:
+    print("equal numbers" )
