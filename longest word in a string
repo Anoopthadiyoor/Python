@@ -1,0 +1,10 @@
+a=input("enter a string")
+b=a.split()
+print(b)
+temp=""
+for i in b:
+    if(len(i)>len(temp)):
+        temp=i
+
+print(temp)
+print(len(temp))
