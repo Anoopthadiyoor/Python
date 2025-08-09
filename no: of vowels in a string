@@ -1,0 +1,7 @@
+n=input("enter a sentence:")
+count=0
+vow='aieou'
+for i in n:
+    if i in vow:
+        count+=1
+print("number of vowels:",count)
