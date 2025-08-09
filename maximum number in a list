@@ -1,0 +1,11 @@
+Find the maximum number in a list
+
+numbers=[5,2,66,2,3,1,44,2,32,]
+large=numbers[0]
+
+for i in numbers:
+    if i>large:
+        large=i
+
+print(large)
+    
