@@ -1,0 +1,4 @@
+s=input("enter a string: ")
+f=s[::-1]
+print(f)
+
