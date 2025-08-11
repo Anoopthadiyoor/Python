@@ -1,0 +1,11 @@
+# Categorize age (child, teen, adult, senior).
+
+age=int(input("enter the age :"))
+if age>60:
+    print("Senior")
+elif age<60 and age>18:
+    print("Adult")
+elif age<18 and age>12:
+    print("Teenager")
+else:
+    print("child")
