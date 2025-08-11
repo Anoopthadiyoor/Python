@@ -1,0 +1,11 @@
+#  Print "Fizz" if divisible by 3, "Fizz" if divisible by 5, "FizzBuzz" if both.
+
+n=int(input("enter a number: "))
+if  n%3==0 and n%5==0:
+    print("fizzbuzz")
+elif n%5==0:
+    print("buzz")
+elif n%3==0:
+    print("Fizz")
+else:
+    print("not didvisible by both 3 and 5")
