@@ -1,0 +1,12 @@
+# Find the median of three numbers
+
+a = float(input("Enter first number: "))
+b = float(input("Enter second number: "))
+c = float(input("Enter third number: "))
+if (a <= b <= c) or (c <= b <= a):
+    median = b
+elif (b <= a <= c) or (c <= a <= b):
+    median = a
+else:
+    median = c
+print("The median is:" ,median)
