@@ -1,0 +1,16 @@
+# Triangle classification based on sides
+
+a = float(input("enter length of side a: "))
+b = float(input("enter length of side b: "))
+c = float(input("enter length of side c: "))
+if a + b > c and a + c > b and b + c > a:
+    if a == b == c:
+        triangle_type = "Equilateral Triangle"
+    elif a == b or b == c or a == c:
+        triangle_type = "Isosceles Triangle"
+    else:
+        triangle_type = "Scalene Triangle"
+    
+    print(f"Triangle Type: {triangle_type}")
+else:
+    print("The given sides do not form a valid triangle.")
