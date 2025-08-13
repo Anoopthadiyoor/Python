@@ -1,0 +1,22 @@
+# Count digits in a number using conditionals
+
+num = int(input("Enter a number: "))
+if num < 0:
+    num = -num
+
+if num < 10:
+    digits = 1
+elif num < 100:
+    digits = 2
+elif num < 1000:
+    digits = 3
+elif num < 10000:
+    digits = 4
+elif num < 100000:
+    digits = 5
+elif num < 1000000:
+    digits = 6
+else:
+    digits = "More than 6 digits"
+
+print(f"The number has {digits} digits.")
