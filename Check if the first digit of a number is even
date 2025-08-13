@@ -1,0 +1,12 @@
+# Check if the first digit of a number is even
+
+num = int(input("Enter a number: "))
+if num < 0:
+    num = -num
+while num >= 10:
+    num //= 10
+first_digit = num
+if first_digit % 2 == 0:
+    print(f"The first digit ({first_digit}) is even.")
+else:
+    print(f"The first digit ({first_digit}) is odd.")
