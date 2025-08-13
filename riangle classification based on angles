@@ -1,0 +1,17 @@
+# Triangle classification based on angles
+
+a = float(input("Enter angle A (in degrees): "))
+b = float(input("Enter angle B (in degrees): "))
+c = float(input("Enter angle C (in degrees): "))
+
+if a > 0 and b > 0 and c > 0 and (a + b + c == 180):
+    if a < 90 and b < 90 and c < 90:
+        type = "Acute Triangle"
+    elif a == 90 or b == 90 or c == 90:
+        type = "Right Triangle"
+    else:
+        type = "Obtuse Triangle"
+    
+    print("Triangle Type:" ,type)
+else:
+    print("The given angles do not form a valid triangle.")
