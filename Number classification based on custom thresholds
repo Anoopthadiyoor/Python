@@ -1,0 +1,13 @@
+# Number classification based on custom thresholds
+
+low_threshold = 50
+high_threshold = 80
+num = float(input("Enter a number: "))
+if num < low_threshold:
+    category = "Low"
+elif low_threshold <= num < high_threshold:
+    category = "Medium"
+else:
+    category = "High"
+
+print(f"The number {num} is classified as: {category}")
