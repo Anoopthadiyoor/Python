@@ -1,0 +1,14 @@
+# Check if the sum of digits is even
+
+num = int(input("Enter a number: "))
+if num < 0:
+    num = -num
+sum_digits = 0
+while num > 0:
+    digit = num % 10
+    sum_digits += digit
+    num //= 10
+if sum_digits % 2 == 0:
+    print(f"The sum of digits ({sum_digits}) is even.")
+else:
+    print(f"The sum of digits ({sum_digits}) is odd.")
