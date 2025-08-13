@@ -1,0 +1,16 @@
+# Check if all digits in a number are odd
+
+num = int(input("Enter a number: "))
+if num < 0:
+    num = -num
+all_odd = True  
+while num > 0:
+    digit = num % 10
+    if digit % 2 == 0: 
+        all_odd = False
+        break
+    num //= 10
+if all_odd:
+    print("All digits are odd.")
+else:
+    print("Not all digits are odd.")
