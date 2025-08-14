@@ -1,0 +1,12 @@
+# Find the smallest digit in a number
+
+num = int(input("Enter a number: "))
+if num < 0:
+    num = -num
+smallest_digit = 9  
+while num > 0:
+    digit = num % 10
+    if digit < smallest_digit:
+        smallest_digit = digit
+    num //= 10
+print("The smallest digit is:", smallest_digit)
