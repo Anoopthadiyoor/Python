@@ -1,0 +1,15 @@
+# Print category: 1-digit, 2-digit, 3-digit, etc.
+
+num = int(input("Enter a number: "))
+if num < 0:
+    num = -num
+digit_count = 0
+temp = num
+if temp == 0:
+    digit_count = 1
+else:
+    while temp > 0:
+        temp //= 10
+        digit_count += 1
+
+print("The number is a", digit_count, "digit number.")
