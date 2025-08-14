@@ -1,0 +1,15 @@
+# Find the largest digit in a number
+
+num = int(input("Enter a number: "))
+if num < 0:
+    num = -num
+
+largest_digit = 0
+
+while num > 0:
+    digit = num % 10
+    if digit > largest_digit:
+        largest_digit = digit
+    num //= 10
+
+print("The largest digit is:", largest_digit)
