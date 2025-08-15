@@ -1,0 +1,5 @@
+# number of digits
+
+from math import log10
+n=4563
+print(int(log10(n))+1)
